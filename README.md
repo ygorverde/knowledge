@@ -2,7 +2,7 @@
 
 ## Sobre
 
-### Projeto final do curso de WebModerno da Cod3r.
+### Projeto final do curso de Web Moderno da Cod3r.
 ```
 
 ```
