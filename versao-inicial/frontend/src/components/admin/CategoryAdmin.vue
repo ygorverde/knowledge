@@ -12,7 +12,7 @@
                       ></b-form-input>
                   </b-form-group>
               </b-col>
-              <b-col md="8" xs="12">
+              <b-col v-show="mode === 'save'" md="8" xs="12">
                   <b-form-group label="Categoria Pai:" label-for="category-parentId">
                      <b-form-select id="category-parentId" size="sm"
                        :options="categories" v-model="category.parentId" />
