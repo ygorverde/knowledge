@@ -48,7 +48,7 @@ module.exports = app => { // Exportando uma função arrow que recebe app.
         }
     }
 
-    const limit = 10 // Paginação
+    const limit = 3 // Paginação
     const get = async (req, res) => {
         const page = req.query.page || 1
 
@@ -86,7 +86,7 @@ module.exports = app => { // Exportando uma função arrow que recebe app.
             .whereIn('categoryId', ids)
             .orderBy('a.id', 'desc')
             .then(articles => res.json(articles))
-            .catch(err = res.status(500).send(err))
+            .catch(err => res.status(500).send(err))
     }
 
 

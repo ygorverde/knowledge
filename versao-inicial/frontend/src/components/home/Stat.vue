@@ -6,9 +6,9 @@
       <div class="stat-info">
           <span class="stat-title">{{ title }}</span>
           <span v-show="value" class="stat-value">{{ value }}</span>
-          <div v-show="!value">
+          <!-- <div v-show="!value">
           <b-spinner :variant="variant" label="Loading..." small></b-spinner>
-          </div>
+          </div> -->
       </div>
   </div>
 </template>
